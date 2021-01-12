@@ -13,20 +13,20 @@ let ans6 = "";
 let ans7 = "";
 rl.question('What\'s your name? ', (answer) => {
   ans1 = answer;
-  rl.question(`Nice to meet you, ${ans1} \nLet's make a profile together. \nWhat's an activity enjoy? `, (answer) => {
+  rl.question(`\nNice to meet you, ${ans1} \nLet's make a profile together. \nWhat's an activity you enjoy? `, (answer) => {
     ans2 = answer;
-    rl.question(`While your enjoying your day ${ans2}, what do you like to listen to? `, (answer) => {
+    rl.question(`\nWhile your enjoying your day ${ans2}, what do you like to listen to? `, (answer) => {
       ans3 = answer;
-      rl.question(`Which is your favorite meal of the day ${ans1}? `, (answer) => {
+      rl.question(`\nWhich is your favorite meal of the day ${ans1}? `, (answer) => {
         ans4 = answer;
-        rl.question(`Very cool, and since ${ans4} is you favorite meal what is your favorite thing to eat for ${ans4}? `, (answer) => {
+        rl.question(`\nVery cool, and since ${ans4} is you favorite meal what is your favorite thing to eat for ${ans4}? `, (answer) => {
           ans5 = answer;
-          rl.question(`Almost done ${ans1}, just a couple more. \nWhat is your absolute favorite sport? `, (answer) => {
+          rl.question(`\nAlmost done ${ans1}, just a couple more. \nWhat is your absolute favorite sport? `, (answer) => {
             ans6 = answer;
-            rl.question(`Lastly, What is your super power and in a few words why are you so amazing at it? `, (answer) => {
+            rl.question(`\nLastly, What is your super power and in a few words why are you so amazing at it? `, (answer) => {
               ans7 = answer;
               
-              console.log(`Thank you for answering my questions, I think your profile should read.\nHi there, my name is ${ans1}\nI think the best time to get to know me is during ${ans4} while I devour my plate of ${ans5} (sorry it's my favorite)\nAny day that I can spend ${ans2} while listening to ${ans3} is a good day in my books.\n"Theatres" NAH let's maybe check out my favorite sport ${ans6}\nLet's finish this off with a banger, my super power is ${ans7}!`);
+              console.log(`\nThank you for answering my questions, I think your profile should read.\n\nHi there, my name is ${ans1}\nI think the best time to get to know me is during ${ans4} while I devour my plate of ${ans5} (sorry it's my favorite)\nAny day that I can spend ${ans2} while listening to ${ans3} is a good day in my books.\n"Theatres" NAH let's maybe check out my favorite sport ${ans6}\nLet's finish this off with a banger, my super power is ${ans7}!`);
               
               rl.close();
             });
